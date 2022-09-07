@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".game_logic"
+    android:background="#7A7979">
+
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="147dp"
+        android:layout_height="118dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="279dp"
+        android:background="@android:color/transparent"
+        android:hint="Answer"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="#2E2E2E"
+        android:textColorHint="#B32E2E2E"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/firstn"
+        android:layout_width="149dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="92dp"
+        android:background="@android:color/transparent"
+        android:paddingTop="25dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="53dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="180dp"
+        android:background="@android:color/transparent"
+        android:paddingBottom="10dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/secondn"
+        android:layout_width="147dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="92dp"
+        android:background="@android:color/transparent"
+        android:paddingTop="25dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="388dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="check answer"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#2E2E2E"
+        android:textColorHint="#2E2E2E"
+        android:backgroundTint="#9E8404"
+        app:rippleColor="#E60E0E"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="54dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scoretext"
+        android:layout_width="231dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="68dp"
+        android:text="Score of this session:"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

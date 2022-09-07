@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "300167675316",
+    "project_id": "mathdealer-ed1e7",
+    "storage_bucket": "mathdealer-ed1e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300167675316:android:c3ad14d8590b856b0b46e1",
+        "android_client_info": {
+          "package_name": "com.example.mathdealer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300167675316-tjkep4psmn86noqp8v05uge5p77r15q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhm8SXvrrbC6ctX9JO-RyBgSw0Ih-7vBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300167675316-tjkep4psmn86noqp8v05uge5p77r15q9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
